@@ -14,9 +14,10 @@ header {
     align-items: center;
     padding: 20px;
     text-align: center;
-    background-color: beige;
+    background-color: rgb(245, 146, 190);
     font-weight: bold;
-    color:rgb(128, 115, 116);
+    color:rgb(150, 5, 65);
+    position: relative;
 }
 
 .header-content {
@@ -35,7 +36,36 @@ header img {
 .table-container {
     width: 100%;
     padding: 10px 0;
-    background-color: beige;
+    background-color: rgb(241, 208, 221);
+    color: rgb(112, 20, 92);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.navbar a{
+    color: rgb(112, 20, 92);
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.navbar a:hover {
+    color: rgb(180, 53, 142); 
+    text-shadow: 0 0 8px rgba(180, 53, 142, 0.4); 
+}
+.navbar a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(180, 53, 142);
+    transition: width 0.3s ease;
+}
+.navbar a:hover::after {
+    width: 100%; /* Animation du soulignement */
 }
 
 table {
@@ -52,7 +82,7 @@ td {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    color:rgb(133, 108, 79);
+    color:rgb(53, 3, 19);
     line-height: 1.8;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -62,16 +92,16 @@ td {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 40px;
+    margin-top: 60px;
     flex-wrap: wrap;
     max-width: 90%;
     margin: auto;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
 }
 h2{
     text-align: center;
     margin: 30px 0;
-    color: rgb(133, 108, 79);
+    color: rgb(77, 14, 45);
 }
 .logo{
     width: 100px;
@@ -86,7 +116,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 253); 
+    background-color: rgb(245, 222, 238); 
     border-radius: 5px; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
@@ -149,17 +179,36 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: beige;
+    background-color: rgb(245, 146, 192);
     margin-top: auto;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background-color: rgb(245, 222, 238);
+    border: none;
+    box-shadow: 0px 8px
+    15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s
+    ease 0s;
+    outline: none;
     cursor: pointer;
-    border-radius: 10px;
-    font-weight: bold;
-    color: #b38d3c;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #440106;
+}
+button:hover{
+    background-color: rgb(180, 53, 142);
+    box-shadow: 0px 15px 20px
+    rgba(211, 173, 209, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+button:active{
+    transform: translateY(-1px);
 }
 
 /* Projets */
@@ -204,16 +253,16 @@ button {
         margin: 20px;
         border-radius: 10px;
         position: relative;
-        margin-top: 35px;
+        margin-top: 40px;
 }
 .arrow {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 20px solid #8b6b12;
+    border-top: 20px solid #c154a6;
     position: absolute;
-    top: 75%;
+    top: 70%;
   }
 .year {
     margin-top: 10px;

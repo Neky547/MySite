@@ -218,15 +218,25 @@ button:active{
     align-items: center;
     padding: 20px;
     text-align: center;
+    max-width: 800px;
+    justify-content: center;
 }
 .project{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    font-weight: bold;
+    background-color: rgb(245, 222, 238);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: justify;
 }
 
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
 
 /* Parcours */
 .parcours{

@@ -14,7 +14,7 @@ header {
     align-items: center;
     padding: 20px;
     text-align: center;
-    background-color: rgb(245, 146, 190);
+    background-color: rgb(253, 252, 253);
     font-weight: bold;
     color:rgb(150, 5, 65);
     position: relative;
@@ -49,6 +49,7 @@ header img {
     padding: 5px 10px;
     position: relative;
     transition: all 0.3s ease;
+    text-decoration-line: none;
 }
 .navbar a:hover {
     color: rgb(180, 53, 142); 
@@ -179,7 +180,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: rgb(245, 146, 192);
+    background-color: rgb(238, 173, 202);
     margin-top: auto;
 }
 
@@ -201,7 +202,7 @@ button {
     color: #440106;
 }
 button:hover{
-    background-color: rgb(180, 53, 142);
+    background-color: rgb(197, 73, 160);
     box-shadow: 0px 15px 20px
     rgba(211, 173, 209, 0.4);
     color: #fff;
@@ -230,7 +231,10 @@ button:active{
     max-width: 700px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: justify;
+    text-align: center;
+}
+table{
+    justify-items: center;
 }
 
 .project:hover {

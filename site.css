@@ -14,9 +14,11 @@ header {
     align-items: center;
     padding: 20px;
     text-align: center;
-    background-color: rgb(253, 252, 253);
-    font-weight: bold;
-    color:rgb(150, 5, 65);
+    background-image: url('images/background.jpg'); /* Chemin vers votre image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout le header */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    color: rgb(150, 5, 65);
     position: relative;
 }
 
@@ -258,6 +260,7 @@ container .project{
     text-align: center;
     margin: 20px auto;
     padding: 20px;
+    text-decoration: none;
 }
 
 /* Parcours */

@@ -18,7 +18,7 @@ header {
     background-size: cover; /* Ajuste l'image pour couvrir tout le header */
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Empêche la répétition */
-    color: rgb(150, 5, 65);
+    color: rgb(122, 93, 13);
     position: relative;
 }
 
@@ -38,14 +38,15 @@ header img {
 .table-container {
     width: 100%;
     padding: 10px 0;
-    background-color: rgb(241, 208, 221);
-    color: rgb(112, 20, 92);
+    backdrop-filter: blur(55px);
+    /*background-color: rgb(241, 216, 178); barre en haut*/
+    color: rgb(92, 68, 23);
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 30px;
 }
 .navbar a{
-    color: rgb(112, 20, 92);
+    color: rgb(92, 68, 23);
     font-weight: bold;
     font-size: 1.1rem;
     padding: 5px 10px;
@@ -53,9 +54,9 @@ header img {
     transition: all 0.3s ease;
     text-decoration-line: none;
 }
-.navbar a:hover {
-    color: rgb(180, 53, 142); 
-    text-shadow: 0 0 8px rgba(180, 53, 142, 0.4); 
+.navbar a:hover { /*coleur après clic*/
+    color: rgb(185, 136, 62); 
+    text-shadow: 0 0 8px rgb(255, 254, 253); 
 }
 .navbar a::after {
     content: "";
@@ -64,7 +65,7 @@ header img {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgb(180, 53, 142);
+    background-color: rgb(185, 136, 62); /*surligne après clic*/
     transition: width 0.3s ease;
 }
 .navbar a:hover::after {
@@ -85,7 +86,7 @@ td {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    color:rgb(53, 3, 19);
+    color:rgb(92, 68, 23);
     line-height: 1.8;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -104,7 +105,7 @@ td {
 h2{
     text-align: center;
     margin: 30px 0;
-    color: rgb(77, 14, 45);
+    color: rgb(92, 68, 23);
 }
 .logo{
     width: 100px;
@@ -119,7 +120,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(245, 222, 238); 
+    background-color: rgb(241, 216, 178); 
     border-radius: 5px; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
@@ -189,10 +190,15 @@ h2{
 /* Footer */
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: rgb(238, 173, 202);
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     margin-top: auto;
 }
 
@@ -201,7 +207,7 @@ button {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    background-color: rgb(245, 222, 238);
+    background-color: rgb(238, 222, 202);
     border: none;
     box-shadow: 0px 8px
     15px rgba(0, 0, 0, 0.1);
@@ -211,10 +217,10 @@ button {
     cursor: pointer;
     border-radius: 20px;
     font-weight: 500;
-    color: #440106;
+    color: rgb(92, 68, 23);
 }
 button:hover{
-    background-color: rgb(197, 73, 160);
+    background-color: rgb(189, 160, 99);
     box-shadow: 0px 15px 20px
     rgba(211, 173, 209, 0.4);
     color: #fff;
@@ -238,7 +244,7 @@ button:active{
     text-decoration-line: none;
 }
 .project{
-    background-color: rgb(245, 222, 238);
+    background-color: rgb(238, 222, 202);
     border-radius: 15px;
     padding: 25px;
     margin: 20px 0;

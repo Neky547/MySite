@@ -266,7 +266,12 @@ container .project{
     text-align: center;
     margin: 20px auto;
     padding: 20px;
-    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    width: 50%;
+    border-radius: 25px;
 }
 
 /* Parcours */
@@ -301,7 +306,7 @@ container .project{
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 20px solid #c154a6;
+    border-top: 20px solid #d4bf91;
     position: absolute;
     top: 70%;
   }

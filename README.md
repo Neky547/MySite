@@ -4,8 +4,8 @@ La veille technologique ou veille scientifique et technique est un processus cyc
 
 Afin de mener à bien ma veille technologique, j'ai mis en place cette méthodologie structurée:
 
-- Définition des objectifs et du périmètre
-- Sélection des sources d'information
-- Automatisation du collecte
-- Organisation des informations
-- Mises à jour
+- Définition des objectifs et du périmètre: secteur à surveiller, thématique
+- Sélection des sources d'information: médias spécialisés, veille concurrentielle
+- Automatisation du collecte: alertes, outils de curation
+- Organisation des informations: classement(Notion,Trello,Pocket), Analyse
+- Mises à jour: réévaluation des sources, veille active

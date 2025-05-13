@@ -257,11 +257,11 @@ button:active{
 table{
     justify-items: center;
 }
-/*
+
 .project:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}*/
+}
 
 container .project{
     text-align: center;

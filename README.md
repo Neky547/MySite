@@ -1,4 +1,4 @@
-                                                      MA VEILLE TECHNOLOGIQUE
+                                         MA VEILLE TECHNOLOGIQUE
 
 La veille technologique ou veille scientifique et technique est un processus cyclique de gestion de l'information, tendant à l'automatisation, qui a pour objectif d'identifier les nouveautés sur un sujet scientifique.
 

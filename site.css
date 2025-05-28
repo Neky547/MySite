@@ -1,3 +1,7 @@
+/* Scroll fluide */
+html {
+    scroll-behavior: smooth;
+}
 /* Styles généraux */
 body {
     margin: 0;
@@ -45,6 +49,7 @@ header img {
     margin-bottom: 20px;
     border-radius: 30px;
 }
+
 .navbar a{
     color: rgb(92, 68, 23);
     font-weight: bold;

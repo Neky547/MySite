@@ -40,15 +40,22 @@ header img {
 }
 
 .table-container {
-    width: 100%;
+     position: fixed;
+    top: 20px; /* distance depuis le haut */
+    left: 50%;
+    transform: translateX(-50%); /* pour centrer horizontalement */
+    width: 90%; /* plus courte que toute la largeur */
+    z-index: 1000;
+
+    background-color: rgba(250, 229, 198, 0.6); /* couleur plus transparente */
+    backdrop-filter: blur(10px); /* flou en arrière-plan */
+    border-radius: 25px; /* bords arrondis */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* ombre légère */
+
     padding: 10px 0;
-    backdrop-filter: blur(55px);
-    /*background-color: rgb(241, 216, 178); barre en haut*/
     color: rgb(92, 68, 23);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 30px;
 }
+
 
 .navbar a{
     color: rgb(92, 68, 23);
@@ -96,6 +103,7 @@ td {
     margin-top: 30px;
     margin-bottom: 30px;
     justify-content: center;
+    margin-top: 150px; 
 }
 .logo-container {
     display: flex;
